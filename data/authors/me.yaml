@@ -27,9 +27,9 @@ links:
     url: mailto:yanouv@icloud.com
     label: E-mail Me
   - icon: brands/github
-    url: 
+    url: https://github.com/example
   - icon: brands/linkedin
-    url:
+    url: https://www.linkedin.com/in/example/
 
 interests:
   - Economics
