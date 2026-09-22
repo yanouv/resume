@@ -14,7 +14,7 @@ status:
   icon: 
 role: Master Student
 bio: |
-  I'm currently looking for an internship or a work-study contract
+  Currently looking for an internship after April 2027 or a work-study contract for 2026-27,
   I'm also interested in hearing about new projects and opportunities. 
   Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
 
@@ -27,9 +27,9 @@ links:
     url: mailto:yanouv@icloud.com
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/example
+    url: https://yanouv.github.io/resume/
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: www.linkedin.com/in/yannick-vaillant-00412b439
 
 interests:
   - Economics
