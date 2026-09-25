@@ -114,8 +114,7 @@ Une classification de l’ensemble des secteurs de l’économie maritime est to
 | **Secteurs**  | **Catégories** |
 | ----- | --- |
 | Secteur industriel |   |
-| Produits de la mer   | Pêche marine, aquaculture marine (pisciculture et
-conchyliculture), production d'algues, marchés aux poissons et commerce du poisson,
+| Produits de la mer   | Pêche marine, aquaculture marine (pisciculture et conchyliculture), production d'algues, marchés aux poissons et commerce du poisson,
 industrie de transformation des produits de la mer  |
 |Extraction de granulats marins |Sables et graviers siliceux, sables et sédiments calcaires|
 |Production d'électricité|Centrales électriques conventionnelles à combustibles fossiles, centrales nucléaires, éoliennes Construction et réparation navales Construction de ports, de barrages, de digues et de canaux navigables, équipement naval et construction de bateaux Centrales nucléaires, Éoliennes|
@@ -128,8 +127,7 @@ industrie de transformation des produits de la mer  |
 |‍Assurances maritimes|Assurances maritimes et banques|
 |‍Secteur public non marchand|     |
 |‍Marine nationale, Défense nationale|Intervention publique Économique et sociale (régime social des marins, protection sociale), Réglementation et éducation|
-|‍Protection de l'environnement côtier et marin|Prévention, réduction et élimination des pollutions ; la réparation
-des dommages et l'acquisition, le traitement et la circulation de l'information sur l'environnement|
+|‍Protection de l'environnement côtier et marin|Prévention, réduction et élimination des pollutions ; la réparation des dommages et l'acquisition, le traitement et la circulation de l'information sur l'environnement|
 |‍Recherche marine|Activités des organismes publics français dans le domaine de la recherche marine et de l'océanographie opérationnelle|
 
 Dans ce tableau, plusieurs secteurs se distinguent.
@@ -139,6 +137,7 @@ Le tourisme littoral est le 1er poste de l’emploi de l’économie maritime en
 Or, en raison de l’ampleur du tourisme, des choix méthodologiques divergents peuvent avoir un impact conséquent sur l’estimation du volume d’emploi.
 
 La Marine nationale est aussi un secteur unique en raison de son poids important (2ᵉ poste d’emploi [Insee, 2017]) et des rares données accessibles. En effet, seul le Ministère des Armées diffuse des informations sur le corps militaire français en raison du secret Défense. Les publications sur l’effectif de la Marine nationale et sa composition sont sporadiques, tant en matière de régularité que de contenu. Difficile donc de mener des analyses poussées sans un accord avec la Défense.
+
 Enfin, ce tableau n’est pas complet. Il reste des activités méconnues ou dont il est difficile de quantifier l’aspect maritime. Dans le secteur de la culture, la réalisation de films et de livres autour de la mer et de l’océan mobilisent des équipes employées par des sociétés de production et d’édition qui ne sont pas spécialisés dans l’environnement maritime. On pourrait aussi ajouter les data centers, qui s’installe au bord de mer pour refroidir les serveurs. On en recense 19 en PACA dont 5 installés dans le port de Marseille-Fos. Leur inclusion suivrait la même logique que celle des centrales électriques.
 
 ### C – La méthodologie de l’économie maritime
@@ -160,16 +159,16 @@ Le Nomura Research Institute au Japon se base sur une analyse input-output et é
 
 Le NOEP (puis le BEA son sucesseur) aux États-Unis effectue un premier filtrage géographique des activités « potentiellement maritimes » si le code postal est associé à au plus un comté « shore-adjacent » au rivage [méthodologie du NOEP rédigée par Colgan, 2007]. Ainsi, les codes postaux ont été modifiés pour identifier les zones cotières après le Coastal Zone Management Act [NOAA, 1972].
 <div style="border: 2px solid #555; padding: 10px; border-radius: 8px; background-color: #f9f9f9;">
-Les zones côtières aux États-Unis
+<u>Les zones côtières aux États-Unis</u>
 
 La définition de l’économie côtière de NOEP repose sur une approche par paliers. Les définitions des niveaux sont basées sur les codes postaux et les limites des comtés. Les catégories suivantes sont utilisées en commençant par le littoral et en poursuivant vers l’intérieur des terres :
-- Near-Shore : établissements ou population situés dans un code postal immédiatement adjacent à un océan, à un grand lac ou à une rivière ou une baie inclus·e.
-- Shore-Adjacent Coastal Zone County : comtés jouxtant en totalité ou en partie par la zone côtière d’un État selon la loi de 1972 sur la gestion de la zone côtière (Coastal Zone Management Act), telle que définie par cet État, et qui est adjacent à un océan, à un grand lac ou à un fleuve ou une baie inclus·e. Cela inclut les codes postaux proches du rivage.
-- Non–shore-Adjacent Coastal Zone County : comté jouxtant en totalité ou en partie par la zone côtière d’un État selon la loi de 1972 sur la gestion de la zone côtière, telle que définie par cet État, et qui n’est pas adjacent à un océan, à un grand lac, ou à une rivière ou une baie inclus·e.
-- Coastal Zone Counties : comtés composés de comtés adjacents au rivage et de comtés non adjacents au rivage.
-- Non-Coastal Zone Watershed County : comté situé en dehors de la zone côtière, mais à l’intérieur d'un bassin versant côtier.
-- Coastal Watershed County : un comté situé dans un bassin versant côtier tel que défini par l’U.S. Geological Survey. Les comtés du bassin versant comprennent tous les comtés de la zone côtière et les comtés du bassin versant qui ne sont pas situés dans la zone côtière.
-- Inland County : comté situé en dehors d’un bassin versant côtier.
+- *Near-Shore* : établissements ou population situés dans un code postal immédiatement adjacent à un océan, à un grand lac ou à une rivière ou une baie inclus·e.
+- *Shore-Adjacent Coastal Zone County* : comtés jouxtant en totalité ou en partie par la zone côtière d’un État selon la loi de 1972 sur la gestion de la zone côtière (Coastal Zone Management Act), telle que définie par cet État, et qui est adjacent à un océan, à un grand lac ou à un fleuve ou une baie inclus·e. Cela inclut les codes postaux proches du rivage.
+- *Non–shore-Adjacent Coastal Zone County* : comté jouxtant en totalité ou en partie par la zone côtière d’un État selon la loi de 1972 sur la gestion de la zone côtière, telle que définie par cet État, et qui n’est pas adjacent à un océan, à un grand lac, ou à une rivière ou une baie inclus·e.
+- *Coastal Zone Counties* : comtés composés de comtés adjacents au rivage et de comtés non adjacents au rivage.
+- *Non-Coastal Zone Watershed County* : comté situé en dehors de la zone côtière, mais à l’intérieur d'un bassin versant côtier.
+- *Coastal Watershed County* : un comté situé dans un bassin versant côtier tel que défini par l’U.S. Geological Survey. Les comtés du bassin versant comprennent tous les comtés de la zone côtière et les comtés du bassin versant qui ne sont pas situés dans la zone côtière.
+- *Inland County* : comté situé en dehors d’un bassin versant côtier.
 
 Source : méthodologie du NOEP, 2007.
 </div>
@@ -195,7 +194,7 @@ Cette partie se consacre à l’étude des facteurs susceptibles d’influencer 
 Certaines études se sont attachées à étudier l’impact du commerce maritime sur l’activité économique portuaire. L’intérêt étant d’observer comment et sous quelles formes une variation du débit du port1 influence les dynamiques d’emploi. En effet, une augmentation du débit génère une demande pour une série de services comme la manutention des marchandises, le transport, l'entreposage, l'administration portuaire et le dédouanement, ce qui crée des opportunités d’emploi pour les travailleurs qualifiés et non qualifiés. Une étude de l’OCDE en 2013, portant sur 116 ports à travers le monde, trouve une corrélation positive entre le débit du port et le niveau d’emploi. Pour cela, les auteurs estiment une série d’équations d’emploi par la méthode des moments généralisée (GMM). 
 
 <div style="border: 2px solid #555; padding: 10px; border-radius: 8px; background-color: #f9f9f9;">
-La méthode des moments généralisée (GMM)
+<u>La méthode des moments généralisée (GMM)</u>
 
 Le modèle de base
 
@@ -245,7 +244,7 @@ Les récents développements de l’IA générative et de la robotique attirent 
 Le secteur du transport maritime en incluant tout ce qui touche la gestion et à la maintenance des cargos est l’une des filières les plus prometteuses sur le sujet. Une révolution est attendue avec le développement des MASS (Maritime Autonomous Surface Ships) : un cargo autonome sans équipage à bord qui peut se commander à distance voire être complètement indépendant. Les premiers modèles sont aujourd’hui en phase de test. L’un des pays leaders sur la question est la Corée du Sud qui a un plan d’investissement de presque $2Mds dans la construction navale de nouvelle génération avec pour ambition notamment la commercialisation d’une dizaine de MASS pour 2035. La littérature scientifique s’est donc intéressée à ce cas particulier. Par une application de la méthode de la dynamique des systèmes (SD), Jo & D'agostini, 2020 ont simulé l’impact de l’introduction des navires autonomes et trouvé que la destruction d’emplois chez les marins serait largement compensée par une forte création d’emplois dans l’industrie navale.
 
 <div style="border: 2px solid #555; padding: 10px; border-radius: 8px; background-color: #f9f9f9;">
-La dynamique des systèmes (System Dynamics ou SD en anglais)
+<u>La dynamique des systèmes (System Dynamics ou SD en anglais)</u>
 
 La dynamique des systèmes est une technique de modélisation mathématique qui permet de comprendre le comportement des systèmes complexes dans le temps en les représentant par des systèmes dynamiques. Le SD analyse les augmentations ou les diminutions des valeurs des variables spécifiques à un problème au cours d'une période donnée. Elle a été créée au milieu des années 1950 par le professeur Jay Forrester du MIT. Elle prend en compte les boucles de rétroaction internes et les effets retard qui affectent le comportement global du système. En dynamique des systèmes, faire tourner une simulation consiste à résoudre les équations mathématiques pour obtenir la valeur de chaque variable au cours du temps. Les équations contiennent des paramètres qu’il faut souvent calibrer sur des données historiques. La sortie d’une simulation pour un jeu de données d’entrée fixé s’appelle un scénario. World3, le modèle de simulation sur lequel se base le rapport Meadows est un modèle de SD.
 
@@ -262,7 +261,7 @@ Une revue de littérature récente sur les perspectives du métier de naviguant 
 Malgré la tendance actuelle à appliquer l'IA à un grand nombre de domaines, son développement dans le secteur du tourisme a été moins important [Duarte et al., 2020]. Pourtant, les domaines d’application de même que le potentiel existe : systèmes de recommandations, guides personnalisées, prédictions et planification touristique [Alzahrani et al., 2025]. L’un des leaders mondial du secteur, Amadeus1, est d’ailleurs implantée en Région PACA. Il faut noter que le secteur se prête assez mal à ces évolutions dans l’inconscient collectif : il est difficile d’imaginer remplacer les métiers de l’hôtellerie-restauration ou de l’animation de loisirs par des robots (cf. encadré ci-dessous).
 
 <div style="border: 2px solid #555; padding: 10px; border-radius: 8px; background-color: #f9f9f9;">
-L’IA et les robots peuvent-ils vraiment transformer le tourisme ?
+<u>L’IA et les robots peuvent-ils vraiment transformer le tourisme ?</u>
 
 Plusieurs facteurs tendent à relativiser l’impact de ces technologies sur l’emploi dans ce secteur. Du côté des employeurs, il y a de nombreux freins à l’adoption des robots et de l’IA dans leurs services. Une enquête auprès de plus de 1000 hôtels de 5 pays européens (dont la France) pointent l’importance de l’investissement nécessaire, de même que le manque de connaissances et de compétences techniques et les difficultés d’implémentation dans le système existant. Des difficultés exacerbées par la petite taille de certains prestataires touristiques qui sont souvent unipersonnels. Du côté des clients, deux enquêtes (respectivement dans la restauration et la conciergerie hôtelière) révèlent que les attentes sont plus basses lorsque le service est réalisé par un robot que par un humain.
 
@@ -278,7 +277,7 @@ La question de la parité homme-femme se pose particulièrement dans l’économ
 Les barrières à l’insertion professionnelle des femmes dans le monde maritime sont connues : stéréotypes de genre persistants, écart de rémunération, manque d’adaptation des carrières professionnelles… Historiquement, la présence des femmes dans le milieu maritime était très mal vu. Dans un milieu ultra-masculin, il était d’usage de dire qu’une femme sur un navire est signe de mauvais présages. De plus, la maternité constitue un point de blocage majeur dans l’évolution des carrières des femmes navigantes d’après une note de synthèse de l’ISEMAR. Elles n’atteignent généralement pas le nombre d’années de navigation requises pour prétendre à ces postes gradés. Ainsi, la grande enquête mondiale de 2024 de l’IMO et de la WISTA (rattachés aux Nations Unies) établit que seul 1 % des gens de mer sont des femmes. Sur le port, le tableau n’est guère plus élogieux. La discrimination se fait dans la division du travail et des tâches. Une enquête réalisée sur des ports en France et au Royaume-Uni montre que la profession d’ouvrier docker est quasi- si ce n’est pas complètement -fermée aux femmes. C’est le cas du port du Havre. La différenciation est même légitimée par les lois : l’article R4541-9 du Code du Travail interdit de porter des charges supérieures à 25 kg pour une femme (contre 55 kg pour un homme), ou de mener certains travaux de maintenance (ex : piquage). Cela alors même que les contraintes physiques de ces métiers s’effacent au profit des innovations mécaniques et de l’assistance technique. Il n’y a pas de chiffres publiés sur la part des femmes chez les ouvriers portuaires, cependant, il semble que la filière ne soit pas complètement fermée au GPMM au regard de l’existence de quelques témoignages. On tend tout de même donc à retrouver plus de femmes dans les terminaux de tourisme, la RSE ou encore les soins. De leur côté, les ports communiquent sur l’index d’égalité professionnelle que doivent réaliser toutes les entreprises de plus de 250 salariés. En 2024, le port de Marseille-Fos a obtenu le score de 93/100. Sur la même année, le port du Havre obtient 87/100. L’index est soumis à de nombreuses critiques. 
 
 <div style="border: 2px solid #555; padding: 10px; border-radius: 8px; background-color: #f9f9f9;">
-Critiques sur l’index d’égalité professionnelle
+<u>Critiques sur l’index d’égalité professionnelle</u>
 
 L’index égalité professionnelle a été créé en 2018 avec l’ambition de permettre aux entreprises de mesurer les écarts de rémunération entre les sexes et de mettre en lumière les disparités existantes, afin de lutter contre les inégalités professionnelles. Il donne une note sur 100. En cas de non-atteinte de la note minimale de 75/100, la sanction peut aller jusqu’à 1 % de la masse salariale de l’entreprise.
 Le Haut Conseil à l’Egalité entre les femmes et les hommes, dans un rapport publié le 7 mars 2024, dressait le bilan de l’index sur les 5 dernières années. S’il relevait que l’outil avait permis des avancées en matière d’égalité, il soulignait également la subsistance de certaines limites :
@@ -323,7 +322,7 @@ Les Produits de la mer regroupe les activités de la pêche maritime, de l’aqu
 Le Carif-Oref y a récemment dédié un cahier de filière pour la région PACA. Sur la question de la parité, la pêche est à l’image des autres activités maritimes avec un taux de féminisation de 4 %, et cela malgré un doublement des effectifs féminins en 20 ans. Du côté de l’aquaculture, les femmes sont bien plus présentes avec 30 % de femmes. Ces chiffres masquent toutefois une discrimination horizontale : les effectifs féminins sont très concentrés dans les métiers d’administration, de transformation et de vente et presque complètement absentes du « cœur » de la production aquacole ou de la grande pêche.
 
 <div style="border: 2px solid #555; padding: 10px; border-radius: 8px; background-color: #f9f9f9;">
-La discrimination/ségrégation professionnelle selon le sexe
+<u>La discrimination/ségrégation professionnelle selon le sexe</u>
 
 La théorie distingue parfois deux dimensions de la ségrégation professionnelle (Meulders et al., 2010) : la ségrégation horizontale, qui désigne la concentration ou surreprésentation des femmes (resp. des hommes) dans certaines professions ; et la ségrégation verticale, qui désigne la sous-représentation des femmes (resp. hommes) dans des professions présentant des attributs « souhaitables » (revenus, reconnaissance sociale...).
 
@@ -345,3 +344,176 @@ L’OCDE avance que si l’économie maritime était un pays, elle serait la cin
 La spécialisation portuaire n’est pas le seul déterminant de l’emploi. Les grandes tendances du marché du travail vont aussi transformer le volume et les caractéristiques du travail dans l’économie maritime. La Commission européenne met en avant qu’un haut risque d’automatisation pourrait toucher entre 5,7 et 50 % des emplois peu qualifiés (ex : ouvrier portuaire, bagagiste) entre 7 % et 23 % des emplois moyennement qualifiés (ex : gens de mer, chauffeurs poids lourds) lié aux progrès de la robotique et de l’IA. Tous les secteurs liés au port et à la marine marchande risquent d’ailleurs d’être impactées avec ces nouvelles innovations. L’une d’entre elles est l’introduction des cargos autonomes (MASS) dans la flotte mondiale qui menace le métier de marin [Li, 2024]. Dans le cadre de la livraison de 10 MASS en Corée du Sud pour 2035, des auteurs estiment cependant que les créations d’emplois (notamment de technicien et d’ingénieurs spécialisés) dépasseront les destructions d’emplois parmi les gens de mer [Jo & D'agostini, 2020]. Le tourisme s’approprie bien moins ces nouvelles technologies [Duarte et al., 2020] malgré un potentiel d’applications important  [Alzahrani et al., 2025]. Une enquête auprès de plus de 1 000 hôtels de 5 pays européens (dont la France) pointe l’importance de l’investissement nécessaire, le manque de connaissances et de compétences techniques et des difficultés d’implémentation [HES•SO, 2023]. 
 
 Enfin, le manque de féminisation des emplois de l’économie maritime est une des grandes voies d’évolution du secteur. Si l’on observe des progrès dans le secteur maritime, l’ISEMAR relève que les freins sociaux (stéréotypes, atmosphère toxique…) et professionnels (inégalité salariale, mauvaise intégration de la période de maternité dans la carrière professionnelle...) sont encore présents [ISEMAR, 2018]. La conséquence est une discrimination verticale qui se résorbe lentement (voir par exemple l’index d’égalité professionnelle du port de Marseille-Fos) mais une discrimination horizontale (surreprésentation d’un sexe dans un métier) qui persiste [Lécuyer, 2022]. Ainsi, la dernière étude l’Insee sur le sujet calcule que seul un quart des salariés de l’économie maritime en région PACA sont des femmes [INSEE, 2019] avec de grandes disparités, même dans des industries très proches : 4 % pour la pêche, 30 % pour l’aquaculture [Carif-Oref, 2023]. Les chiffres ne sont pas disponibles dans tous les secteurs pour la région PACA mais certains métiers, comme ceux de marins ou de dockers, semblent quasiment fermés à un public féminin [WISTA, 2024 ; Lécuyer, 2022]. À cet égard, le tourisme littoral fait figure d’exception : les publications INSEE dans toute la France évoquent une parité homme-femme quasi-parfaite [France métropolitaine, 2015 ; Bretagne 2018 ; Pays de la Loire 2017 ; Hauts de France 2017] qui semble se confirmer en PACA puisque le tourisme au global (littoral et non-littoral) compte déjà 51 % d’effectifs féminins [INSEE, 2023].
+
+
+
+
+## Références
+
+**Partie 1 : Qu’est-ce que l’économie maritime ?**
+
+<u>A - Définir l’« économie maritime »</u>
+
+Ah-Son D., « Des activités en hausse et à forte valeur ajoutée - Économie bleue à La Réunion », Insee Analyses Réunion n° 75, octobre 2022
+
+European Commission, Blue Growth – Opportunities for marine and maritime sustainable growth
+– Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions (2021) [lien]
+
+International Independant Tribunal on Blue Economy, International Jury Verdict:
+Independent People’s Tribunal on the Implications of Blue Economy in Sri Lanka (2021) [lien]
+
+Louey, Philippa Lee. "A transformative blue economy?." (2024). [lien]
+
+OCDE (2025), L’économie de la mer à l’horizon 2050 (version abrégée), Éditions OCDE, Paris, https://doi.org/10.1787/66051cab-fr. 
+
+Park, Dr. Kwang Seo and Kildow, Dr. Judith T. (2014) "Rebuilding the Classification System of the Ocean Economy," Journal of Ocean and Coastal Economics: Vol. 2014: Iss. 1, Article 4. [lien]  
+
+Transnational Institute, Unmasking the Blue Fix (2019) [lien]
+
+U.S. Senate Committee on Commerce, Science, and Transportation, The Blue Economy: The Role of the Oceans in our Nation’s Economic Future, June 9, 2009 09:30 AM, SR 253. 
+
+<u>B – Les secteurs de l’économie maritime</u>
+
+Caray J., Méreau B., « Économie maritime - Des activités à forte valeur ajoutée et des emplois qualifiés », Insee Flash Provence-Alpes-Côte d'Azur n° 56, septembre 2019 
+datacenters.com, Provence-Alpes-Cote d'Azur Data Centers Locations [lien] 
+Guillotreau, Patrice, éditeur. Mare economicum. Presses universitaires de Rennes, 2008, https://doi.org/10.4000/books.pur.53781.
+Meyer V., Novella S., « 120 000 emplois directement liés à la mer en Provence-Alpes-Côte d’Azur », Insee Analyses Provence-Alpes-Côte d’Azur n° 46, juin 2017  
+PSAR, « E45 Emplois touristiques - Guide d’utilisation » Version d’avril 2025
+
+<u>C – La méthodologie de l’économie maritime</u>
+
+Conseil économique, social et environnemental régional de Bretagne (CESER), « Ouvrir dans un nouvel ongletÉconomie maritime en Bretagne : changeons de regard », Rapport du CESER de Bretagne, 2014. 
+
+Colgan, « A Guide to the Measurement of the Market Data for the Ocean and Coastal Economy in the National Ocean Economics Program »,National Ocean Economics Program, January 2007 
+
+Hynes, Stephen; O'Donoghue, Cathal; Burger, Ryan; and O'Leary, Jenny (2021) "Spatial Microsimulation for Regional Analysis of Marine Related Employment," Journal of Ocean and Coastal Economics: Vol. 8: Iss.2, Article 5. DOI: https://doi.org/10.15351/2373-8456.1149
+
+Kwiatkowski JM and Zaucha J (2023) Measuring the blue economy in the EU: The Polish experience. Front. Mar. Sci. 10:1129075. doi: 10.3389/fmars.2023.1129075
+
+Liang, X., Zheng, C., Zheng, L. et al. Ocean economic input-output tables of coastal provinces in China. Sci Data 12, 876 (2025). https://doi.org/10.1038/s41597-025-05221-3
+  
+Nomura Research Institute, The report on of Japan’s marine industry, March 2009. [non-disponible en ligne mais longuement repris dans Park et Kildrow, 2014]
+
+US Congress, COASTAL ZONE MANAGEMENT ACT OF 1972, as amended through Pub. L. No. 109-58, the Energy Policy Act of 2005 [lien]
+
+Zhao, Rui et al. “Defining and quantifying China's ocean economy.” Marine policy vol. 43 (2014): 164-173. doi:10.1016/j.marpol.2013.05.008
+
+**Partie 2 : Comment se manifestent les tendances du marché du travail dans l’économie maritime ?**
+
+<u>A - L’impact économique du port sur la région portuaire</u>
+
+Ayesu, E.K., Boateng, K.A.B. Estimating the impact of container port throughput on employment: an analysis for African countries with seaports. J. shipp. trd. 9, 8 (2024). https://doi.org/10.1186/s41072-024-00166-z
+
+Blundell, Richard, and Stephen Bond. "Initial conditions and moment restrictions in dynamic panel data models." Journal of econometrics 87.1 (1998): 115-143. 
+
+Eurostat, «Maritime transport of goods - annual data », Data extracted in November 2024. [lien]
+
+fastercapital.com, « System GMM: The Systematic Approach: Unveiling the Power of System GMM », Updated: 30 Mar 2025 [lien]
+
+Ferrari, C., Merk, O., Bottasso, A., Conti, M., Tei, A.(2012), “Ports and Regional Development: a European Perspective”, OECD Regional Development Working Papers, 2012/07, OECD Publishing http://dx.doi.org/10.1787/5k92z71jsrs6-en
+
+Hidalgo-Gallego, S., & Núñez-Sánchez, R. (2023). The effect of port activity on urban employment: An analysis for the Spanish functional urban areas. Journal of Transport Geography, 108, 103570. 
+
+marseille-port.fr, « dossier de presse  - Résultats annuels 2024 », Marseille, le 27 janvier 2025 [lien]
+
+Pérez, I., González, M. M., & Trujillo, L. (2020). Do specialisation and port size affect port efficiency? Evidence from cargo handling service in Spanish ports. Transportation Research Part A: Policy and Practice, 138, 234-249. [accès payant]
+
+Seo, Y. J., & Park, J. S. (2017). The role of seaports in regional employment: evidence from South Korea. Regional Studies, 52(1), 80–92. https://doi.org/10.1080/00343404.2016.1262014
+statisticseasily.com, « Qu'est-ce que c'est : la méthode généralisée des moments » 
+
+<u>B – La place de l’Intelligence Artificielle (IA) dans l’économie maritime</u>
+
+Commission Recommendation (EU) 2024/236 of 29 November 2023 on means to address the impact of automation and digitalisation on the transport workforce, ELI: http://data.europa.eu/eli/reco/2024/236/oj 
+Schröder-Hinrichs, Jens-Uwe, et al. "Transport 2040: Automation, technology, employment-The future of work." World Maritime University, Transport 2040 (2019). [lien]
+
+*I. Transport maritime*
+
+CNUCED, Review of Maritime Transport 2024, Navigating maritime chokepoints (UNCTAD/RMT/2024) -  22 Oct 2024 
+
+Damienne Provitolo. La dynamique des systèmes selon J.W. Forrester. Hypergeo, 2006,
+http://www.hypergeo.eu/spip.php?article384. 2006. _x005F_xffff_halshs-00391565_x005F_xffff_
+
+Jay W. Forrester, Industrial Dynamics, Pegasus Communications, 1961 (ISBN 1-883823-36-6) 
+ 
+Jo, E. D'agostini, Disrupting technologies in the shipping industry: How will MASS development affect the maritime workforce in Korea, Marine Policy, 120 (2020), p. 104139 [accès payant] https://doi.org/10.1016/j.marpol.2020.104139
+
+K.S. Kim, Impact on Seafarers and Jobs Due to the Introduction of MASS, Policy Seminar for MASS Introduction (2018) [non disponible en ligne mais cité dans Jo et D’Agostini]
+
+koreapro.org, « South Korea invests record $1.8 billion to dominate next-gen shipbuilding », February 12, 2025 [accès payant]
+
+Li, X., & Yuen, K. F. (2024). A human-centred review on maritime autonomous surfaces ships: impacts, responses, and future directions. Transport Reviews, 44(4), 791–810. https://doi.org/10.1080/01441647.2024.2325453
+ 
+*II. Tourisme*
+
+Alzahrani, Abdulkareem, et al. "AI-Driven Innovations in Tourism: Developing a Hybrid Framework for the Saudi Tourism Sector." AI 6.1 (2025): 7.https://doi.org/10.3390/ai6010007  
+
+Byrd, K., Fan, A., Her, E., Liu, Y., Almanza, B. and Leitch, S. (2021), "Robot vs human: expectations, performances and gaps in off-premise restaurant service modes", International Journal of Contemporary Hospitality Management, Vol. 33 No. 11, pp. 3996-4016. https://doi.org/10.1108/IJCHM-07-2020-0721 [accès payant]
+Duarte, Luis, et al. "Artificial Intelligence Systems applied to tourism: A Survey." arXiv preprint arXiv:2010.14654 (2020). DOI:10.48550/arXiv.2010.14654  
+
+etourisme.info, « IA : pourquoi le tourisme reste à quai (et comment l’embarquer) ? », Publié le 19 septembre 2024
+
+HES•SO, « AI in Tourism: Unveiling the Potential and Benefits for SMEs in the Hotel Sector », October 4, 2023 
+
+Shin, H.H. and Jeong, M. (2020), "Guests’ perceptions of robot concierge and their adoption intentions", International Journal of Contemporary Hospitality Management, Vol. 32 No. 8, pp. 2613-2633. https://doi.org/10.1108/IJCHM-09-2019-0798 
+Ye, H.; Sun, S.; Law, R. A Review of Robotic Applications in Hospitality and Tourism Research. Sustainability 2022, 14, 10827. https://doi.org/10.3390/su141710827
+ 
+<u>C – La féminisation des emplois dans l’économie maritime</u>
+
+*I. Transport maritime*
+
+Article R4541-9 - Code du travail, Version en vigueur depuis le 01 mai 2008
+
+Cour des comptes, « Les inégalités entre les femmes et les hommes, de l’école au marché du travail », janvier 2025
+
+editions-tissot.fr, « L'efficacité de l’index égalité décriée par la Cour des comptes », Modifié le 04/02/2025 
+
+haropaport.com, « Qui sommes-nous ? - Les ports du Havre, Rouen et Paris constituent le Grand port fluvio-maritime de l’axe Seine. », Mis à jour le 18/03/2025  
+
+HCE, « Salaires : 5 ans après l’Index, toujours pas d’égalité - Des propositions pour améliorer l’outil », Rapport n°2024-03-07-EGAPRO-62 , publié le 07 mars 2024 
+
+IMO-WISTA, « Women in Maritime Survey 2024 », May 2025 
+
+ISEMAR, « La place de la femme dans le monde maritime français », Note de Synthèse ISEMAR N°201 - Juin 2018 
+
+Kim, Te., Sharma, A., Gausdal, A.H. et al. Impact of automation technology on gender parity in maritime industry. WMU J Marit Affairs 18, 579–593 (2019). https://doi.org/10.1007/s13437-019-00176-w [accès payant]
+ 
+Marie Lécuyer, « La féminisation des ports à l’arrêt ? Les pratiques des employeurs et leurs conséquences dans deux ports nord-européens », Mémoire(s), identité(s), marginalité(s) dans le monde occidental contemporain [En ligne], 28 | 2022, mis en ligne le 10 novembre 2022, consulté le 25 juin 2025. URL : http://journals.openedition.org/mimmoc/10878 ; DOI : https://doi.org/10.4000/mimmoc.10878
+ 
+marseille-port.fr, « Égalité professionnelle : le Port bon élève ! », 27 février 2024
+ 
+solutionspreventionlemag.fr, « Responsable QHSE : une femme parmi les dockers », Mis à jour : 25 janvier 2022 
+
+*II. Tourisme littoral*
+
+legifrance.gouv.fr, « Arrêté du 21 mars 2025 portant extension d'un accord conclu dans le cadre de la convention collective nationale des hôtels, cafés, restaurants (n° 1979) », JORF n°0085 du 9 avril 2025, Texte n° 46
+
+S. Colas, L. Neveu-Cheram, « L’économie maritime : des activités diverses et localisées », Insee Première, n°1573, novembre 2015 
+
+legifrance.gouv.fr, « Convention collective nationale de tourisme social et familial du 28 juin 1979, mise à jour du 10 octobre 1984 - Textes Attachés - Accord du 27 mai 2019 relatif à l'égalité professionnelle entre les femmes et les hommes », Étendu par arrêté du 5 février 2021 JORF 12 février 2021
+
+legifrance.gouv.fr, « Convention collective nationale des hôtels, cafés restaurants (HCR) du 30 avril 1997 - Textes Attachés - Accord du 13 décembre 2023 relatif à l'égalité professionnelle femme-homme », Étendu par arrêté du 21 mars 2025 JORF 9 avril 2025
+
+« Économie maritime : 31 200 emplois sur le littoral et le long de l’estuaire de la Loire » Insee Analyses Pays de la Loire n° 46 - juin 2017 – Serge Fraboul, Loïc Midy 
+
+Halls-French L., « LA PLACE DES FEMMES DANS LE MONDE DU TOURISME », Inspection Générale du Tourisme Mission Femmes et Tourisme, 8 mars 2003
+
+lechotouristique.com, « Les femmes bien représentées dans le tourisme » Article Par Rédaction L'Echo Touristique, 8 Mars 2006  
+
+E. Lenzi, B. Méreau, A. Monsef, « En Provence-Alpes-Côte d’Azur, l’accueil des touristes génère 124 000 emplois salariés », Insee Analyses Provence-Alpes-Côte d'Azur no 117, juin 2023
+
+M. Maillard, « L'économie maritime, portée par les activités complémentaires des trois ports régionaux Atouts et défis des Hauts-de-France », Insee Analyses Hauts-de-France n° 47, mars 2017 
+
+*III. Produits de la mer*
+
+Dumortier A-S., « Cahier filières : Pêche et Aquaculture », décembre 2023 
+
+Briard K., «  Ségrégation professionnelle entre les femmes et les hommes : quels liens avec le temps partiel ? », DARES Document d’études Numéro 234, juillet 2019 
+
+
+**Sources supplémentaires du résumé** 
+
+Allen Consulting Group, « The economic contribution of Australia's marine industries 1995-96 to 2002-03 », Report to The National Oceans Office, June 2004
+
+Jolly C., Jollifee J., « 10 faits essentiels sur l'économie de la mer que vous devez connaître », blog de l’OCDE, 31 mars 2025  
+
+Nicolls W., « Defining and Measuring the U.S. Marine Economy », Commerce Department, Economic Analysis Bureau, June 2020 
