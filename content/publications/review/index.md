@@ -1,5 +1,5 @@
 ---
-title: "Revue de la Litterature"
+title: "[🇫🇷 vers.] Economie Maritime - Revue de Littérature"
 math: true
 authors:
 - me
@@ -16,14 +16,13 @@ publication_types: ["article"]
 # Publication metadata — structured fields used by citation styles and BibTeX export.
 # Preprints typically have no formal venue; omit `publication` until the work is accepted.
 
-abstract: This work examines the monetary policy trade-offs surrounding Hungary’s exceptionally rapid disinflation of 2023. Using an IMF Quarterly Projection Model calibrated to the Hungarian economy, we conduct a forecasting exercise to assess whether a looser policy stance could have produced a softer landing, and ultimately a case of “painless disinflation”. The model forecast reproduces a rapid decline in inflation while allowing the nominal policy rate to decrease progressively. The interaction between the interest- and exchange-rate channels, coupled with the decline in inflation expectations tighten the monetary conditions. Our alternative policy simulations indicate more aggressive policy rules can marginally improve inflation outcomes, but at the expense of a larger negative output gap. 
+abstract: Cette revue de littérature vise à faire état de l'avancée de la recherche à propos du marché de l'emploi dans l'économie maritime. Elle inclut une délimitation du champ d'application du terme d'"économie maritime", un bilan des études économétriques et empiriques sur les déterminants du volume et de la composition de l'emploi et un regard sur les évolutions futures qui vont toucher le secteur. Ce travail a été commissionné par l'INSEE comme une documentation interne. Cela implique une censure partielle du texte original lorsque cela touche à des informations internes (marquées par des "**[...]**") et un style d'écriture adapté.
 
 # Summary. An optional shortened abstract.
-summary: "A QPM Analysis of Hungary’s Post-2022 Inflation Episode"
+summary: "Un extrait de mon travail lors de mon stage à l'INSEE"
 
 tags:
-- Matlab
-- New Keynesian
+- Essay
 
 featured: true
 
@@ -35,16 +34,12 @@ links:
 - type: pdf
   provider: arxiv
   id: 1512.04133v1
-- type: code
-  url: https://github.com/HugoBlox/kit
-- type: dataset
-  url: "#"
 
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Bloomberg**](https://infostart.hu/images/site/articles/lead/2024/04/1713871840-cufL4MkDU_md.jpg)'
+  caption: 'Image credit: [**Shiptify**](https://www.shiptify.com/es/blog/cmr-transporte)'
   focal_point: ""
   preview_only: false
 
@@ -346,9 +341,9 @@ La spécialisation portuaire n’est pas le seul déterminant de l’emploi. Les
 Enfin, le manque de féminisation des emplois de l’économie maritime est une des grandes voies d’évolution du secteur. Si l’on observe des progrès dans le secteur maritime, l’ISEMAR relève que les freins sociaux (stéréotypes, atmosphère toxique…) et professionnels (inégalité salariale, mauvaise intégration de la période de maternité dans la carrière professionnelle...) sont encore présents [ISEMAR, 2018]. La conséquence est une discrimination verticale qui se résorbe lentement (voir par exemple l’index d’égalité professionnelle du port de Marseille-Fos) mais une discrimination horizontale (surreprésentation d’un sexe dans un métier) qui persiste [Lécuyer, 2022]. Ainsi, la dernière étude l’Insee sur le sujet calcule que seul un quart des salariés de l’économie maritime en région PACA sont des femmes [INSEE, 2019] avec de grandes disparités, même dans des industries très proches : 4 % pour la pêche, 30 % pour l’aquaculture [Carif-Oref, 2023]. Les chiffres ne sont pas disponibles dans tous les secteurs pour la région PACA mais certains métiers, comme ceux de marins ou de dockers, semblent quasiment fermés à un public féminin [WISTA, 2024 ; Lécuyer, 2022]. À cet égard, le tourisme littoral fait figure d’exception : les publications INSEE dans toute la France évoquent une parité homme-femme quasi-parfaite [France métropolitaine, 2015 ; Bretagne 2018 ; Pays de la Loire 2017 ; Hauts de France 2017] qui semble se confirmer en PACA puisque le tourisme au global (littoral et non-littoral) compte déjà 51 % d’effectifs féminins [INSEE, 2023].
 
 > [!NOTE]
-> $^{1}$ La plupart des récentes publications n’intègrent plus cette dimension.
-> $^{2}$ Débit portuaire = Nombre total des conteneurs manutentionnés estimés par pays, exprimé en équivalent vingt pieds (EVP). Un EVP est l'unité de volume équivalente à un conteneur standard multimodal d'une longueur de vingt pieds, utilisé pour le chargement, le déchargement, le repositionnement et le transbordement [CNUCED]. 
-> $^{3}$ Les auteurs parlent d’un « risque élevé d’automatisation » qui correspond à un taux d’« automatibilité » de 70 % des tâches du métier. La méthode se base sur Arntz, Gregory et Zierahn [2016, 2017].
+> $^{1}$ La plupart des récentes publications n’intègrent plus cette dimension.<br>
+> $^{2}$ Débit portuaire = Nombre total des conteneurs manutentionnés estimés par pays, exprimé en équivalent vingt pieds (EVP). Un EVP est l'unité de volume équivalente à un conteneur standard multimodal d'une longueur de vingt pieds, utilisé pour le chargement, le déchargement, le repositionnement et le transbordement [CNUCED]. <br>
+> $^{3}$ Les auteurs parlent d’un « risque élevé d’automatisation » qui correspond à un taux d’« automatibilité » de 70 % des tâches du métier. La méthode se base sur Arntz, Gregory et Zierahn [2016, 2017]. <br>
 > $^{4}$ Amadeus It Group est aujourd'hui le premier fournisseur mondial de solutions technologiques pour le secteur du voyage. Il contrôle plus de 40 % du marché mondial des GDS (système global de réservation). Amadeus a des bureaux à Sophia-Antipolis. (Source : Les Échos)
 
 ## Références
