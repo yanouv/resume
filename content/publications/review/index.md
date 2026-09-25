@@ -181,7 +181,167 @@ Pour déterminer la valeur ajoutée, l’emploi et les salaires, les TES donnent
 Cette hypothèse est assez commune dans les analyses mobilisant un TES, notamment dans la recherche. Des chercheurs polonais [Kwiatkowski et Zaucha, 2023] ont essayé d’appliquer la définition de la Commission européenne avec la nomenclature locale. Ils classifient les activités maritimes en quantifiant l’emploi maritime d’un secteur à partir de la valeur ajoutée des entreprises. Ils considèrent ensuite que la part de la VA des entreprises du secteur dans les régions côtières par rapport à la totalité du pays représente la part de l’emploi du secteur comme faisant partie de l’économie maritime. Petite spécificité : ils ont utilisé les bases de données international Eurostat SBS et Orbis. 
 
 - On trouve encore d’autres méthodes, certains chercheurs utilisent des modèles où le périmètre est prédéfini (on retrouve ce cas dans [Hynes et al., 2021] dans un modèle de microsimulation spatial ou dans [Liang et al., 2025] avec des TES).
-- 
+  
 Enfin, cette liste n’est qu’un aperçu. Elle est non-exhaustive car beaucoup n’explicitent pas leurs techniques de manière précise. Il existe sûrement d’autres méthodologies, qui peuvent combiner les approches précédentes ou utiliser des outils complètement différents.
 
 Surtout, on peut encore caractériser les emplois « induits » par l’économie maritime, dont l’existence peut dépendre des activités maritimes. Par exemple, la valeur ajoutée du secteur de la construction et de la réparation navales est générée par des activités en amont et en aval de la chaîne d'approvisionnement de l'industrie. Cela indique qu'au-delà de la contribution directe du secteur à l'économie maritime, il peut y avoir des effets multiplicateurs significatifs sur le revenu et l'emploi dans d’autres segments de l'économie. L’inclusion des emplois induits est discutable mais elle permet de mieux apprécier l’influence global de la présence de la mer/l’océan sur un territoire.
+
+## Partie 2 : Comment se manifestent les tendances du marché du travail dans l’économie maritime ?
+
+Cette partie se consacre à l’étude des facteurs susceptibles d’influencer l’emploi dans l’économie maritime. 3 évolutions majeures y sont étudiées : les choix de spécialisation des ports et leurs impacts sur l’emploi, l’intégration de l’IA dans les processus de production et la question de la féminisation des emplois. Rares sont les papiers qui traitent de ces sujets sur l’ensemble de l’économie maritime, une analyse filière par filière sera alors menée.
+
+### A - L’impact économique du port sur la région portuaire
+
+Certaines études se sont attachées à étudier l’impact du commerce maritime sur l’activité économique portuaire. L’intérêt étant d’observer comment et sous quelles formes une variation du débit du port1 influence les dynamiques d’emploi. En effet, une augmentation du débit génère une demande pour une série de services comme la manutention des marchandises, le transport, l'entreposage, l'administration portuaire et le dédouanement, ce qui crée des opportunités d’emploi pour les travailleurs qualifiés et non qualifiés. Une étude de l’OCDE en 2013, portant sur 116 ports à travers le monde, trouve une corrélation positive entre le débit du port et le niveau d’emploi. Pour cela, les auteurs estiment une série d’équations d’emploi par la méthode des moments généralisée (GMM). 
+
+<div style="border: 2px solid #555; padding: 10px; border-radius: 8px; background-color: #f9f9f9;">
+La méthode des moments généralisée (GMM)
+
+Le modèle de base
+
+La méthode généralisée des moments (GMM) est une technique statistique utilisée pour estimer les paramètres dans les modèles économétriques. Il est particulièrement utile dans les situations où les méthodes traditionnelles, telles que l'estimation du maximum de vraisemblance (MLE), peuvent être difficiles à appliquer en raison de la complexité du modèle ou de la nature des données.
+Au cœur de GMM se trouve l'idée de conditions de moment, qui sont des équations qui relient les paramètres du modèle aux valeurs attendues de certaines fonctions des données. Ces conditions de moment sont généralement dérivées de la théorie économique sous-jacente ou des propriétés statistiques des données. L'estimateur GMM est obtenu en minimisant une somme pondérée des carrés des différences entre les moments d'échantillon (calculés à partir des données) et les moments de population (impliqués par le modèle). Ce processus de minimisation permet aux chercheurs de trouver des estimations de paramètres qui correspondent le mieux aux données observées en fonction des conditions de moment spécifiées.
+Le GMM est largement utilisé en économétrie pour estimer des modèles impliquant des données de séries chronologiques, des données de panel et des données transversales.
+
+Source : article en français sur le GMM
+
+La variante mobilisée par les études citées
+
+Lié aux caractéristiques des données exploitées, les 2 études susmentionnées utilisent l’estimateur SYS-GMM de Blundell et Bond. En combinant des équations en différences avec des équations en niveaux, le système GMM améliore l'estimateur standard Différence GMM en fournissant des estimations plus efficaces et impartiales, en particulier lorsque les variables indépendantes sont faiblement exogènes. Du point de vue d'un économètre, l'intérêt du Système GMM réside dans sa capacité à fournir des estimateurs cohérents même lorsque les variables explicatives ne sont pas strictement exogènes.
+
+Sources : autre article en français sur le SYS-GMM ; papier référence de Blundell et Bond, 1998.
+
+Équations d’emploi
+
+Les équations d’emploi varient selon les papiers. L’une des plus légères et qui a inspiré les papiers suivants est celle de l’étude de l’OCDE :
+
+$$ln Emp_{it} = α ln Emp_{it-1} + Y’β + X’γ + u_{it}$$
+
+« Où $ln Emp_{it}$ représente le logarithme du nombre de personnes employées dans la région i au moment t ; $ln Emp_{it-1}$ est le premier décalage de l'emploi, qui est inclus étant donné que les coûts d'ajustement de l'emploi empêchent des ajustements instantanés à l'équilibre à long terme ; Y est un vecteur d'activités portuaires, composé du nombre de passagers qui ont utilisé les ports de la région i au moment t, et du débit d'un port ou, selon la spécification du modèle, du débit net dans la région i au moment t ; à son tour, X est un vecteur de variables de contrôle régionales et $u_{it} = e_{i} + t_{t} + v_{it} est un terme d'erreur. Le terme d'erreur est composé de e_{i}, un ensemble d'effets fixes spécifiques à la région, potentiellement corrélés avec les variables de régression, qui capture les effets de l'hétérogénéité régionale non observée dans le temps, telle que les institutions, les niveaux de développement économique, la structure et la composition de l'économie régionale, etc. » (Traduction libre)
+
+Source : Bottasso et al., 2013
+</div>
+
+Leurs résultats indiquent qu’une augmentation d'1 point de % du débit portuaire est associée à une augmentation de l'emploi dans la région portuaire de 0,03 point de % à court-terme et de 0,75 point de % à long-terme. Des travaux similaires et plus récents ont été réalisées sur des échantillons plus localisés. Les résultats sont résumés dans le tableau ci-dessous.
+
+| Auteurs  | Région Étudiée | Méthode | Court-terme (%) | Long-terme (%) |
+| ----- | --- | ---------- | ---------- | ---------- |
+|Bottasso et al., 2013 (OCDE)|OCDE|GMM|+ 0,03|+ 0,75|
+|Ayesu et Boateng, 2024 |Afrique|GMM|+ 0,07|+ 1,32|
+|Hidalgo-Gallego et Núñez-Sánchez, 2023|Espagne|Tobit|+ 0,02 - + 0,03|
+|Seo et Park, 2018|Corée du Sud|Tobit|  + 0,08 |N/A|
+Variations du niveau d’emploi pour une augmentation de 1 % du débit portuaire
+
+Par ailleurs, l’étude de l’OCDE différencie ses résultats selon le type de navires de charges/cargos (les types dépendent des marchandises) : le vrac liquide se distingue particulièrement en ayant un impact positif mais très inférieur aux autres catégories (vracs secs, porte-conteneurs, rouliers/Ro-Ro…). Selon les auteurs, cette variation provient de la nature du vrac liquide (pétroliers notamment) qui ne nécessite pas beaucoup de main-d’œuvre grâce au transport par pipeline. La France est un leader européen en termes de spécialisation dans ce type de marchandises.
+
+![Description of image](image3.png "Source : Eurostat")
+
+### B – La place de l’Intelligence Artificielle (IA) dans l’économie maritime
+
+Les récents développements de l’IA générative et de la robotique attirent régulièrement l’attention des médias, partagées entre la crainte d’une automatisation de nombreuses tâches et donc la disparition de certains métiers et l’espoir d’une coopération homme-machine vers un travail plus efficace. Aucun papier récent ne traite du sujet sur l’ensemble de l’économie maritime, mais il est possible de trouver des études sur quelques filières en particulier. La Commission européenne, en s’appuyant sur une étude générale dans le secteur des transports, met en avant qu’un haut risque d’automatisation1 pourrait touché entre 5,7 et 50 % des emplois peu qualifiés (ex : ouvrier portuaire, bagagiste) entre 7 % et 23 % des emplois moyennement qualifiés (ex : gens de mer, chauffeurs poids lourds) et maximum 2 % pour les emplois hautement qualifiés (ex : officiers de navires, personnel spécialisé). 
+
+#### I. Transport maritime 
+
+Le secteur du transport maritime en incluant tout ce qui touche la gestion et à la maintenance des cargos est l’une des filières les plus prometteuses sur le sujet. Une révolution est attendue avec le développement des MASS (Maritime Autonomous Surface Ships) : un cargo autonome sans équipage à bord qui peut se commander à distance voire être complètement indépendant. Les premiers modèles sont aujourd’hui en phase de test. L’un des pays leaders sur la question est la Corée du Sud qui a un plan d’investissement de presque $2Mds dans la construction navale de nouvelle génération avec pour ambition notamment la commercialisation d’une dizaine de MASS pour 2035. La littérature scientifique s’est donc intéressée à ce cas particulier. Par une application de la méthode de la dynamique des systèmes (SD), Jo & D'agostini, 2020 ont simulé l’impact de l’introduction des navires autonomes et trouvé que la destruction d’emplois chez les marins serait largement compensée par une forte création d’emplois dans l’industrie navale.
+
+<div style="border: 2px solid #555; padding: 10px; border-radius: 8px; background-color: #f9f9f9;">
+La dynamique des systèmes (System Dynamics ou SD en anglais)
+
+La dynamique des systèmes est une technique de modélisation mathématique qui permet de comprendre le comportement des systèmes complexes dans le temps en les représentant par des systèmes dynamiques. Le SD analyse les augmentations ou les diminutions des valeurs des variables spécifiques à un problème au cours d'une période donnée. Elle a été créée au milieu des années 1950 par le professeur Jay Forrester du MIT. Elle prend en compte les boucles de rétroaction internes et les effets retard qui affectent le comportement global du système. En dynamique des systèmes, faire tourner une simulation consiste à résoudre les équations mathématiques pour obtenir la valeur de chaque variable au cours du temps. Les équations contiennent des paramètres qu’il faut souvent calibrer sur des données historiques. La sortie d’une simulation pour un jeu de données d’entrée fixé s’appelle un scénario. World3, le modèle de simulation sur lequel se base le rapport Meadows est un modèle de SD.
+
+Les approches SD sont principalement divisées en approches impliquant des diagrammes de boucle causale et des diagrammes de flux de stock. Les diagrammes de boucle causale, qui ont été développés comme un outil de pré-simulation informatique, sont utilisés pour améliorer la compréhension d'un modèle par les parties prenantes à la résolution du problème. Les diagrammes de flux et de stocks comprennent les relations de cause à effet entre les variables liées à des problèmes spécifiques. Par exemple, voici le diagramme de boucle causale de l’étude de Jo & d’Agostini :
+
+![Description of image](image4.png)
+Sources : Provitolo, 2006 ;  Jo & D'Agostini, 2020 ; article de référence de Forrester, 1961.
+</div>
+
+Une revue de littérature récente sur les perspectives du métier de naviguant [Li, 2024] corrobore ce point de vue tout en déplorant l’insuffisance de recherches de qualité sur le sujet. Surtout, ces auteurs anticipent que ce nouveau marché va renverser le marché du travail international du transport maritime. En effet, les équipages viennent en majorité de pays comme les Phillipines, Myanmar ou encore l’Inde. Les compétences nécessaires à l’accueil et la gestion des MASS privilégieront une relocalisation des emplois dans les ports des pays développés et leurs orientations vers des techniciens très qualifiés [Jo & D'agostini, 2020 ; Kim, 2018]. Toutefois, cela reste des perspectives à long- voire très long-terme. Il faudrait encore plusieurs dizaines d’années pour renouveler les 110 000 navires de la flotte marchande actuellement en circulation.
+
+#### II. Tourisme
+
+Malgré la tendance actuelle à appliquer l'IA à un grand nombre de domaines, son développement dans le secteur du tourisme a été moins important [Duarte et al., 2020]. Pourtant, les domaines d’application de même que le potentiel existe : systèmes de recommandations, guides personnalisées, prédictions et planification touristique [Alzahrani et al., 2025]. L’un des leaders mondial du secteur, Amadeus1, est d’ailleurs implantée en Région PACA. Il faut noter que le secteur se prête assez mal à ces évolutions dans l’inconscient collectif : il est difficile d’imaginer remplacer les métiers de l’hôtellerie-restauration ou de l’animation de loisirs par des robots (cf. encadré ci-dessous).
+
+<div style="border: 2px solid #555; padding: 10px; border-radius: 8px; background-color: #f9f9f9;">
+L’IA et les robots peuvent-ils vraiment transformer le tourisme ?
+
+Plusieurs facteurs tendent à relativiser l’impact de ces technologies sur l’emploi dans ce secteur. Du côté des employeurs, il y a de nombreux freins à l’adoption des robots et de l’IA dans leurs services. Une enquête auprès de plus de 1000 hôtels de 5 pays européens (dont la France) pointent l’importance de l’investissement nécessaire, de même que le manque de connaissances et de compétences techniques et les difficultés d’implémentation dans le système existant. Des difficultés exacerbées par la petite taille de certains prestataires touristiques qui sont souvent unipersonnels. Du côté des clients, deux enquêtes (respectivement dans la restauration et la conciergerie hôtelière) révèlent que les attentes sont plus basses lorsque le service est réalisé par un robot que par un humain.
+
+Sources : enquête de l’HES•SO, 2023 ; article d’un directeur d’office du tourisme girondin, 2024 ; Ye et al., 2022 ; enquête restauration de Byrd et al., 2021; enquête hôtellerie de Shin et Jeong, 2020.
+</div>
+
+### C – La féminisation des emplois dans l’économie maritime
+
+La question de la parité homme-femme se pose particulièrement dans l’économie maritime car, hors tourisme et Marine nationale, c’est l’un des secteurs les moins féminisés en France. En région PACA, la dernière étude de l’INSEE révèle ainsi que 3/4 des salariés de l’économe maritime sont des hommes.
+
+#### I. Transport maritime
+
+Les barrières à l’insertion professionnelle des femmes dans le monde maritime sont connues : stéréotypes de genre persistants, écart de rémunération, manque d’adaptation des carrières professionnelles… Historiquement, la présence des femmes dans le milieu maritime était très mal vu. Dans un milieu ultra-masculin, il était d’usage de dire qu’une femme sur un navire est signe de mauvais présages. De plus, la maternité constitue un point de blocage majeur dans l’évolution des carrières des femmes navigantes d’après une note de synthèse de l’ISEMAR. Elles n’atteignent généralement pas le nombre d’années de navigation requises pour prétendre à ces postes gradés. Ainsi, la grande enquête mondiale de 2024 de l’IMO et de la WISTA (rattachés aux Nations Unies) établit que seul 1 % des gens de mer sont des femmes. Sur le port, le tableau n’est guère plus élogieux. La discrimination se fait dans la division du travail et des tâches. Une enquête réalisée sur des ports en France et au Royaume-Uni montre que la profession d’ouvrier docker est quasi- si ce n’est pas complètement -fermée aux femmes. C’est le cas du port du Havre. La différenciation est même légitimée par les lois : l’article R4541-9 du Code du Travail interdit de porter des charges supérieures à 25 kg pour une femme (contre 55 kg pour un homme), ou de mener certains travaux de maintenance (ex : piquage). Cela alors même que les contraintes physiques de ces métiers s’effacent au profit des innovations mécaniques et de l’assistance technique. Il n’y a pas de chiffres publiés sur la part des femmes chez les ouvriers portuaires, cependant, il semble que la filière ne soit pas complètement fermée au GPMM au regard de l’existence de quelques témoignages. On tend tout de même donc à retrouver plus de femmes dans les terminaux de tourisme, la RSE ou encore les soins. De leur côté, les ports communiquent sur l’index d’égalité professionnelle que doivent réaliser toutes les entreprises de plus de 250 salariés. En 2024, le port de Marseille-Fos a obtenu le score de 93/100. Sur la même année, le port du Havre obtient 87/100. L’index est soumis à de nombreuses critiques. 
+
+<div style="border: 2px solid #555; padding: 10px; border-radius: 8px; background-color: #f9f9f9;">
+Critiques sur l’index d’égalité professionnelle
+
+L’index égalité professionnelle a été créé en 2018 avec l’ambition de permettre aux entreprises de mesurer les écarts de rémunération entre les sexes et de mettre en lumière les disparités existantes, afin de lutter contre les inégalités professionnelles. Il donne une note sur 100. En cas de non-atteinte de la note minimale de 75/100, la sanction peut aller jusqu’à 1 % de la masse salariale de l’entreprise.
+Le Haut Conseil à l’Egalité entre les femmes et les hommes, dans un rapport publié le 7 mars 2024, dressait le bilan de l’index sur les 5 dernières années. S’il relevait que l’outil avait permis des avancées en matière d’égalité, il soulignait également la subsistance de certaines limites :
+- 1 % des entreprises étaient assujetties à l’index, ce qui représentait seulement un quart des salariés ;
+- omission du facteur « temps partiel » et mise à l’écart des éléments de rémunérations variables ;
+- une note supérieure à 75/100 laissant penser que le problème des inégalités salariales est résolu, alors que les écarts subsistent et donc que l’entreprise peut être condamnée ;
+- l’index se limitait au principe d’égalité de rémunération à poste équivalent, n’intégrant ainsi pas la sous-valorisation systématique des métiers féminisés.
+
+La Cour des comptes, dans un rapport publié le 27 janvier 2025, critique plus sévèrement l’index égalité, le qualifiant d’“index de façade dont la logique de résultats n’est pas probante”.
+
+Sources : article de presse de synthèse, 2025 ; Cour des Comptes, 2025 ; Haut Conseil à l’Égalité, 2024.
+</div>
+
+<div style="border: 2px solid #555; padding: 10px; border-radius: 8px; background-color: #f9f9f9;">
+L’IA et la robotique au service de l’égalité homme-femme ?
+
+Grâce à l’autonomisation des tâches permises par les futures avancées de l’IA et de la robotique, les composantes « masculines » des métiers de la Mer et du port seront atténuées. En effet, ces changements pourraient provenir de l’apparition de nouvelles fonctions qui n’auront pas un « passif de masculinité » au sens qu’elles n’auront pas un historique et une culture (parfois toxique) de métiers masculins. Ils pourraient aussi être la conséquence de la suppression des barrières liées aux tâches physiques et/ou à risques qui freinent l’insertion féminine dans ces métiers. Ainsi, les postes dans ce secteur pourraient ressembler à des emplois de bureau plus traditionnels qui accueillent généralement plus d’effectifs féminins.
+
+Sources : Kim et al., 2019 ; Li, 2024.
+</div>
+
+#### II. Tourisme littoral
+
+Il n’existe pas d’études sur l’emploi lié au tourisme littoral dans la région PACA. Pourtant, il semble faire figure d’exception sur la question de la féminisation des emplois. Les publications de l’Insee abordant le sujet ont toutes entre 5 et 10 ans mais montre une répartition quasi-parfaite entre hommes et femmes : en % de femmes (salariés), 49 % en France Métro [2015], 1 salarié sur 2 en Bretagne [2018], 54 % en Pays de la Loire [2017], 51 % dans les Hauts de France [2017]… Ce rapport, assez stable, semble aussi se prolonger en Région PACA : une publication récente de l’Insee étudiant le tourisme au global (littoral et non-littoral) porte la part des effectifs féminins à 51 %. 
+
+Cette situation est symptomatique d’un secteur qui concentre beaucoup de métiers très féminisés à l’image de l’accueil, de la communication ou de la vente. C’est une filière où les formations sont courtes, peu qualifiantes et dominées par un public féminin. 
+
+<div style="border: 2px solid #555; padding: 10px; border-radius: 8px; background-color: #f9f9f9;">
+Les femmes dans les formations des métiers du tourisme
+
+Il y a une multitude de parcours scolaires et professionnels qui peuvent mener aux métiers du tourisme car il y a, en sortie, une diversité de métiers aussi grandes qui se rassemblent sous cette étiquette. Un article daté (2006) parle de 85 % d’effectifs féminins en BTS Tourisme et de 80 % à l’IREST (Institut de Recherche et d'Études Supérieures du Tourisme) sans citer ses sources. Plus vieux encore, une mission de l’Inspection générale du tourisme évoquent un rapport de 8:1 pour les femmes en BTS Tourisme en France et un rapport de 20:1 en licence professionnelle de tourisme à la Sorbonne.
+Ces chiffres sont datés et peuvent avoir connu des évolutions significatives.
+
+Sources : article de l’Écho Touristique, 2006 ; rapport de la Mission « Femmes et Tourisme », 2003.
+</div>
+
+Cela n’empêche pourtant pas une sous-représentation des femmes dans certains métiers et parmi les cadres. Pour y remédier, les Entreprises du Voyage et les syndicats ont récemment signé le tout premier accord de branche portant sur l’égalité professionnelle entre les femmes et les hommes (complété par l’accord du 13 décembre 2023 lui-même étendu en 2025). L’une des ambitions affiché par les participants est d’atteindre 70 % de cadres féminins d’ici 2025.
+
+#### III. Produits de la mer
+
+Les Produits de la mer regroupe les activités de la pêche maritime, de l’aquaculture incluant la transformation et le commerce de ces productions.
+Le Carif-Oref y a récemment dédié un cahier de filière pour la région PACA. Sur la question de la parité, la pêche est à l’image des autres activités maritimes avec un taux de féminisation de 4 %, et cela malgré un doublement des effectifs féminins en 20 ans. Du côté de l’aquaculture, les femmes sont bien plus présentes avec 30 % de femmes. Ces chiffres masquent toutefois une discrimination horizontale : les effectifs féminins sont très concentrés dans les métiers d’administration, de transformation et de vente et presque complètement absentes du « cœur » de la production aquacole ou de la grande pêche.
+
+<div style="border: 2px solid #555; padding: 10px; border-radius: 8px; background-color: #f9f9f9;">
+La discrimination/ségrégation professionnelle selon le sexe
+
+La théorie distingue parfois deux dimensions de la ségrégation professionnelle (Meulders et al., 2010) : la ségrégation horizontale, qui désigne la concentration ou surreprésentation des femmes (resp. des hommes) dans certaines professions ; et la ségrégation verticale, qui désigne la sous-représentation des femmes (resp. hommes) dans des professions présentant des attributs « souhaitables » (revenus, reconnaissance sociale...).
+
+Source : Document d’études de la Dares, 2019.
+</div>
+
+## Conclusion
+
+L’économie maritime est une composante essentielle de l’économie mondiale. De la pêche, de la construction navale et du tourisme littoral à l’énergie offshore, aux interventions publiques et au transport maritime, elle soutient des millions d’emplois dans des secteurs et des régions très variés en France. 
+
+**[...]** 
+Cette définition n’est cependant pas une référence, ni nationale ni internationale. De nombreux termes différents existent pour désigner ce secteur : économie bleue [Commission Européenne, 2021], économie marine [Bureau of Economic Analysis (USA), 2020], industrie maritime [Allen Consulting Group (Australie), 2004]... 
+Cette différenciation se poursuit dans le champ d’application de l’économie maritime, conséquence notamment des différences de classification des secteurs d’activités entre les pays [Park and Kildow, 2014]. On distingue deux types d’emplois à inclure dans l’économie maritime : les emplois directs qui sont clairement liés à l’économie maritime et les emplois indirects qui appartiennent à des secteurs dont le cœur d’activité n’est pas forcément la mer [Ceser, 2014]. Si les emplois directs sont facilement quantifiables, la tâche est plus délicate pour les emplois indirects. Pour les estimations d’emplois directs, deux méthodes dominent : 
+- La réalisation d’un travail d’enquête supplémentaire au travers d’expertises et/ou de sondages (comme en Chine [Zhao et al., 2014]).
+- L’exploitation des Tableaux Entrées-Sorties (ceux de la France sont publiées par l’Insee) qui établit l’équilibre comptable entre ressources et emploi par nomenclature NAF. Cette méthode nécessite de faire l’hypothèse que la part des emplois liés à l’industrie maritime dans l’industrie totale correspond à la part de la production/valeur ajoutée liée à l’industrie maritime dans l’industrie totale. Elle est utilisée aux USA [BEA, 2020], au Japon [NRI, 2009] et souvent dans la recherche [Kwiatkowski et Zaucha, 2023]. 
+
+L’OCDE avance que si l’économie maritime était un pays, elle serait la cinquième plus grande économie du monde [OCDE, 2025]. Cette importance se répercute sur le marché du travail qui voit près de 120 000 actifs employés dans des activités liées à la mer en région PACA [Insee, 2017]. Plusieurs études ont cherché à quantifier l’influence de l’activité d’un port sur le volume d’emploi dans sa région. Toutes trouvent un impact positif allant d’une hausse de 0,03 % à 0,08 % pour une augmentation de 1 % du débit portuaire [Bottasso et al., 2013 ; Ayesu et Boateng, 2024 ; Seo et Park 2018]. Entre autres, les estimations différenciées selon le type de cargaison donnent un impact positif plus faible du vrac liquide [OCDE, 2012] dans lequel est spécialisé le port de Marseille-Fos. Mais la spécialisation offre des avantages à travers une plus grande productivité et un plus grand attrait commercial [Pérez et al., 2020].
+
+La spécialisation portuaire n’est pas le seul déterminant de l’emploi. Les grandes tendances du marché du travail vont aussi transformer le volume et les caractéristiques du travail dans l’économie maritime. La Commission européenne met en avant qu’un haut risque d’automatisation pourrait toucher entre 5,7 et 50 % des emplois peu qualifiés (ex : ouvrier portuaire, bagagiste) entre 7 % et 23 % des emplois moyennement qualifiés (ex : gens de mer, chauffeurs poids lourds) lié aux progrès de la robotique et de l’IA. Tous les secteurs liés au port et à la marine marchande risquent d’ailleurs d’être impactées avec ces nouvelles innovations. L’une d’entre elles est l’introduction des cargos autonomes (MASS) dans la flotte mondiale qui menace le métier de marin [Li, 2024]. Dans le cadre de la livraison de 10 MASS en Corée du Sud pour 2035, des auteurs estiment cependant que les créations d’emplois (notamment de technicien et d’ingénieurs spécialisés) dépasseront les destructions d’emplois parmi les gens de mer [Jo & D'agostini, 2020]. Le tourisme s’approprie bien moins ces nouvelles technologies [Duarte et al., 2020] malgré un potentiel d’applications important  [Alzahrani et al., 2025]. Une enquête auprès de plus de 1 000 hôtels de 5 pays européens (dont la France) pointe l’importance de l’investissement nécessaire, le manque de connaissances et de compétences techniques et des difficultés d’implémentation [HES•SO, 2023]. 
+
+Enfin, le manque de féminisation des emplois de l’économie maritime est une des grandes voies d’évolution du secteur. Si l’on observe des progrès dans le secteur maritime, l’ISEMAR relève que les freins sociaux (stéréotypes, atmosphère toxique…) et professionnels (inégalité salariale, mauvaise intégration de la période de maternité dans la carrière professionnelle...) sont encore présents [ISEMAR, 2018]. La conséquence est une discrimination verticale qui se résorbe lentement (voir par exemple l’index d’égalité professionnelle du port de Marseille-Fos) mais une discrimination horizontale (surreprésentation d’un sexe dans un métier) qui persiste [Lécuyer, 2022]. Ainsi, la dernière étude l’Insee sur le sujet calcule que seul un quart des salariés de l’économie maritime en région PACA sont des femmes [INSEE, 2019] avec de grandes disparités, même dans des industries très proches : 4 % pour la pêche, 30 % pour l’aquaculture [Carif-Oref, 2023]. Les chiffres ne sont pas disponibles dans tous les secteurs pour la région PACA mais certains métiers, comme ceux de marins ou de dockers, semblent quasiment fermés à un public féminin [WISTA, 2024 ; Lécuyer, 2022]. À cet égard, le tourisme littoral fait figure d’exception : les publications INSEE dans toute la France évoquent une parité homme-femme quasi-parfaite [France métropolitaine, 2015 ; Bretagne 2018 ; Pays de la Loire 2017 ; Hauts de France 2017] qui semble se confirmer en PACA puisque le tourisme au global (littoral et non-littoral) compte déjà 51 % d’effectifs féminins [INSEE, 2023].
