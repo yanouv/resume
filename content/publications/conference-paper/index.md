@@ -16,20 +16,6 @@ date: '2026-08-22T00:00:00Z'
 # Schedule page publish date (NOT publication's date).
 publishDate: '2026-08-22T00:00:00Z'
 
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
-
-
-# Publication metadata — structured fields used by citation styles and BibTeX export.
-publication:
-  name: "Proceedings of the HugoBlox Kit Conference"
-  short_name: "ICW"
-
-# Awards, honors, and recognitions. Surfaced as badges on the page and in listings.
-
-# Funders and grants. Required by many funders for compliance reporting.
-
 abstract: This work investigates the modeling and forecasting of financial volatility using daily returns of Oracle Corporation. The analysis combines several families of models, including GARCH-type specifications for conditional volatility, as well as CAViaR and GAS models for tail-risk estimation. The objective is to identify models describing accurately the observed volatility and being able to forecast future volatility.
 
 # Summary. An optional shortened abstract.
@@ -49,11 +35,11 @@ hugoblox:
 # Custom links
 links:
   - type: pdf
-    url: "conference-paper.pdf"
+    url: conference-paper.pdf
   - type: code
-    url: https://github.com/HugoBlox/kit
+    url: https://github.com/yanouv/oracle
   - type: dataset
-    url: https://github.com/HugoBlox/kit
+    url: https://github.com/yanouv/oracle/data
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
