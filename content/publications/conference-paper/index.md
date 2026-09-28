@@ -49,7 +49,7 @@ hugoblox:
 # Custom links
 links:
   - type: pdf
-    url: ""
+    url: "conference-paper.pdf"
   - type: code
     url: https://github.com/HugoBlox/kit
   - type: dataset
