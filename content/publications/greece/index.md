@@ -23,7 +23,7 @@ slides: "greece"
 ---
 ## ⚠ Disclaimer
 
-This project was originally made on Power BI. The next slides are only a preview of the related dashboard, without all the interactive features.
+This project was originally made on Power BI. The following pictures are only a preview of the related dashboard, without all the interactive features.
 
 [![Click to enlarge](slide_1.png)](slide_1.png)
 [![Click to enlarge](slide_2.png)](slide_2.png)
