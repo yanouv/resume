@@ -22,4 +22,4 @@ projects: []
 slides: "greece"
 ---
 ## Presentation Slides
-<iframe src="../slides/greece/" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+<iframe src="../present/slides/greece/" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
