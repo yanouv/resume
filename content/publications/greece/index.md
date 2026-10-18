@@ -16,7 +16,7 @@ tags:
 image:
   caption: 'Image credit: [**Istockphoto**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ''
-  preview_only: true
+  preview_only: false
   placement: 3
 
 projects: []
