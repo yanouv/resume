@@ -1,6 +1,6 @@
 ---
 title: "Greece’s Housing Paradox : Too Many Homes, Too Few Homes"
-date: 2024-01-01
+date: 2026-10-18
 # `type: slides` is inferred from folder, but can be set explicitly:
 type: slides
 summary: "A quick tour of recent research highlights: multimodal LLMs, efficient training, and responsible AI."
@@ -20,7 +20,7 @@ slides:
 This project was originally made on Power BI. The next slides are only a preview of the related dashboard, without all the interactive features.
 
 ---
-{{data-background-image="slide_1.png"}}
+# {{data-background-image="slide_1.png"}}
 ![Alternative text](slide_2.png)
 ---
 
