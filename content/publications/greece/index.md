@@ -1,5 +1,5 @@
 ---
-title: "An example journal article"
+title: "Greece’s Housing Paradox : Too Many Homes, Too Few Homes"
 authors:
 - me
   
@@ -8,11 +8,13 @@ date: "2026-10-18T00:00:00Z"
 # Schedule page publish date (NOT publication's date).
 publishDate: "2026-10-18T00:00:00Z"
 
+type: event
+
 tags:
   - Power BI
 
 image:
-  caption: 'Image credit: [**The Market Periodical**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Image credit: [**Istockphoto**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ''
   preview_only: false
 
