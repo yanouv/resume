@@ -21,10 +21,10 @@ This project was originally made on Power BI. The next slides are only a preview
 
 ---
 {{data-background-image="slide_1.png"}}
-
+![Alternative text](slide_2.png)
 ---
 
-{{< figure src="slide_1" width="100%" >}}
+# {{< figure src="slide_1" width="100%" >}}
 ![Alternative text](slide_1.png)
 ---
 
