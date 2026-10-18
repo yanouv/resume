@@ -17,14 +17,11 @@ image:
   caption: 'Image credit: [**Istockphoto**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ''
   preview_only: false
-  placement: 3
+  placement: 2
 
 projects: []
 slides: "greece"
 ---
-## Presentation Slides
-<iframe src="../present/slides/greece/" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
-
 ![Alternative text](slide_1.png)
 
 ![Alternative text](slide_2.png)
