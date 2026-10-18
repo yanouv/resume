@@ -17,9 +17,20 @@ image:
   caption: 'Image credit: [**Istockphoto**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ''
   preview_only: true
+  placement: 3
 
 projects: []
 slides: "greece"
 ---
 ## Presentation Slides
 <iframe src="../present/slides/greece/" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+![Alternative text](slide_1.png)
+
+![Alternative text](slide_2.png)
+
+![Alternative text](slide_3.png)
+
+{{< figure src="slide_1.png" title="Click to view full size" width="50%" >}}
+
+[![Click to enlarge](slide_2.png)](slide_2.png)
