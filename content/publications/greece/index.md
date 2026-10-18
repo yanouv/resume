@@ -17,17 +17,13 @@ image:
   caption: 'Image credit: [**Istockphoto**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ''
   preview_only: false
-  placement: 2
+  placement: 3
 
 projects: []
 slides: "greece"
 ---
-![Alternative text](slide_1.png)
-
-![Alternative text](slide_2.png)
-
-![Alternative text](slide_3.png)
-
-{{< figure src="slide_1.png" title="Click to view full size" width="50%" >}}
-
+[![Click to enlarge](slide_1.png)](slide_1.png)
 [![Click to enlarge](slide_2.png)](slide_2.png)
+{{< figure src="slide_1.png" title="Click to view full size" width="100%" >}}
+
+[![Click to enlarge](slide_3.png)](slide_3.png)
