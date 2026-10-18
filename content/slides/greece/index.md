@@ -21,15 +21,15 @@ This project was originally made on Power BI. The next slides are only a preview
 
 ---
 
-![Alternative text](slide_1.jpg)
+![Alternative text](slide_1.png)
 
 ---
 
-![Alternative text](slide_2.jpg)
+![Alternative text](slide_2.png)
 
 ---
 
-![Alternative text](slide_3.jpg)
+![Alternative text](slide_3.png)
 
 ---
 
