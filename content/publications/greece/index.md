@@ -27,7 +27,7 @@ slides: "greece"
 ---
 ## ⚠ Disclaimer
 
-This project was originally made on Power BI. The following pictures are only a preview of the related dashboard, without all the interactive features.
+This project was originally made on Power BI. The following pictures are only a preview of the related dashboard, without all the interactive features. Click on the pictures to enlarge them.
 
 [![Click to enlarge](slide_1.png)](slide_1.png)
 <div style="text-align: center;">Page 1 : A Substantial but Imperfect Supply </div>
