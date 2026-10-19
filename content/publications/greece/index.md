@@ -10,6 +10,8 @@ publishDate: "2026-10-18T00:00:00Z"
 
 type: event
 
+summary: A dashboard outlining the current challenges facing the Greek property market
+
 abstract: Like many other European countries, Greece faces growing affordability challenges regarding its housing markets. Access to ownership has become increasingly difficult as real estate prices have outpaced income gains, reflecting strong and increasingly concentrated demand. However, compared with its european peers, Greece benefits from a substantial housing stock. This case highlights how a mismatch lead to a complete market failure.
 
 tags:
@@ -28,5 +30,17 @@ slides: "greece"
 This project was originally made on Power BI. The following pictures are only a preview of the related dashboard, without all the interactive features.
 
 [![Click to enlarge](slide_1.png)](slide_1.png)
+<div style="text-align: center;">Page 1 : A Substantial but Imperfect Supply </div>
+
 [![Click to enlarge](slide_2.png)](slide_2.png)
+<div style="text-align: center;">Page 2 : A Constrained Demand </div>
+
 [![Click to enlarge](slide_3.png)](slide_3.png)
+<div style="text-align: center;">Page 3 : Consequences & Perspectives </div>
+
+## References
+- Eurostat
+- Spitogatos.gr
+- Alpha Bank
+- Elstat
+- Bank of Greece
