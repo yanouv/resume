@@ -10,7 +10,7 @@ publishDate: "2026-10-18T00:00:00Z"
 
 type: event
 
-summary: Like many other European countries, Greece faces growing affordability challenges regarding its housing markets. Access to ownership has become increasingly difficult as real estate prices have outpaced income gains, reflecting strong and increasingly concentrated demand. However, compared with its european peers, Greece benefits from a substantial housing stock. This case highlights how a mismatch lead to a complete market failure.
+abstract: Like many other European countries, Greece faces growing affordability challenges regarding its housing markets. Access to ownership has become increasingly difficult as real estate prices have outpaced income gains, reflecting strong and increasingly concentrated demand. However, compared with its european peers, Greece benefits from a substantial housing stock. This case highlights how a mismatch lead to a complete market failure.
 
 tags:
   - Power BI
