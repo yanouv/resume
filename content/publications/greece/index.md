@@ -25,7 +25,7 @@ image:
 projects: []
 slides: "greece"
 ---
-## ⚠ Disclaimer
+### ⚠ Disclaimer
 
 This project was originally made on Power BI. The following pictures are only a preview of the related dashboard, without all the interactive features. Click on the pictures to enlarge them.
 
@@ -38,9 +38,9 @@ This project was originally made on Power BI. The following pictures are only a 
 [![Click to enlarge](slide_3.png)](slide_3.png)
 <div style="text-align: center;">Page 3 : Consequences & Perspectives </div>
 
-## References
-- Eurostat
+### Sources:
+- Eurostat - Calculations based on EU SILC microdata for 2023
 - Spitogatos.gr
-- Alpha Bank
-- Elstat
-- Bank of Greece
+- Alpha Bank Economic Research, *The Housing Market Pulse: Navigating Persistent Demand, Policy Efficiency and Structural Supply Rigidities in Greece*, February 2026 
+- Elstat - Estimated population (both sexes) on the 1st January for the years 2002-2013
+- Bank of Greece - New index of apartment prices by geographical area
