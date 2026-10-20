@@ -11,7 +11,6 @@ publishDate: "2026-09-04T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
 
 # Publication metadata — structured fields used by citation styles and BibTeX export.
 # Preprints typically have no formal venue; omit `publication` until the work is accepted.
