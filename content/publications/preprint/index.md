@@ -32,8 +32,7 @@ hugoblox:
 
 links:
 - type: pdf
-  provider: arxiv
-  id: 1512.04133v1
+  url: ""
 - type: code
   url: https://github.com/yanouv/resume/blob/2d793d2896846babb341c8ea468cabe98a67cf4e/content/publications/preprint/Paper%20Report%20Clean.pdf)
 - type: dataset
