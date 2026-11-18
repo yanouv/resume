@@ -190,6 +190,7 @@ i^{n}_{t}&=\bar{r}_{t}+E_{t}\left[\pi^{4}_{t+N}  \right]&&(8)
 \end{aligned}
 $$
 </div>
+
 #### Uncovered interest rate parity (UIP) and the exchange rate 
 
 The nominal exchange rate ($s_{t}$) is determined by a UIP condition with a backward-looking element to capture stickiness in the adjustment of the exchange rate. A more positive value indicates a depreciation. Growth in the trend real exchange rate ($\bar{z_{t}}$) is a weighted average of its lag and a steady-state value. The exchange rate premium is additional premium investors for holding the currency over and above the returns from the real interest rate differential. The exchange rate is measured at each period (so in quarters) but interest rates are and the premium are expressed in annualized rate so we have to scale them. 
